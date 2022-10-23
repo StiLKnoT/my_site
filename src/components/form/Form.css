@@ -1,0 +1,46 @@
+.fixedForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 11111;
+}
+.fixedForm_answer {
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    background-image: url(../../img/bg-img2.png);
+    object-fit: cover;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #eee5e5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+.fixedForm_answer h2{
+    color: #F9004D;
+    text-align: center;
+    font-size: 2em;
+}
+.fixedForm_answer span{
+    color: #000000;
+    padding-left: 10px;
+    text-shadow: #F9004D;
+}
+.fixedForm_answer button{
+    background-color: #F9004D;
+    color: #fff;
+    border: 2px solid rgb(255, 255, 255);
+}
+.fixedNone{
+    display: none;
+}

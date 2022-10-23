@@ -1,0 +1,107 @@
+{
+  "navbar": {
+    "Home": "Home",
+    "About": "About",
+    "Services": "Services",
+    "Portfolio": "Portfolio",
+    "Blog": "Blog",
+    "Contact": "Contact"
+  },
+  "title": {
+    "welcome": "WELCOME TO MY WORLD",
+    "salom": "Hi, I'm",
+    "Nurlan": "Nurlan",
+    "developer": "Developer",
+    "based": "based in TASHKENT"
+  },
+  "about": {
+    "aboutMe": "About me",
+    "name": "Name: Nurlan",
+    "surname": "Surname: Karshiev",
+    "age": "Age: 22",
+    "education": "Education: TUIT",
+    "course": "Course: 3",
+
+    "iAm": "I'm junior frontend developer, currently",
+    "goals": "My stack React JS(ES6)/i18n/MUI, my goals:",
+    "specialist": "- become a pro at my specializations",
+    "creation": "- creation of high-quality projects,  launch and development of them in the online platform",
+    "demand": "- be in demand specialist",
+
+    "CV": "Download CV",
+    "hireME": "Hire me"
+  },
+  "service": {
+    "title": "My Awesome Services",
+    "text1": "Important details of site development",
+    "text2": "Before starting the project, you should decide on the details and goals for the further use of the site."
+  },
+  "service1": {
+    "type": "Site creation",
+    "text1": "Business card site,",
+    "text2": "Landing, Multipage site,",
+    "text3": "Online store."
+  },
+  "service2": {
+    "type": "Site support",
+    "text1": "Making updates,",
+    "text2": "Change of website design,",
+    "text3": "Improvement, Bug fixes."
+  },
+  "service3": {
+    "type": "Selling site",
+    "text1": "You will receive",
+    "text2": "a finished product ",
+    "text3": "to promote your brand."
+  },
+  "project": {
+    "title": "My Latest Project",
+    "text1": "Real project's",
+    "text2": "",
+    "siteText1": "Site for guides and tourists",
+    "siteText2": "Business training courses",
+    "siteText3": "University Website",
+    "siteText4": "Landing page for SMM",
+    "siteText5": "Private kindergarten website.",
+    "siteText6": "Sneakers shop",
+    "siteText7": "Your application can be here",
+    "siteText8": "Online shop",
+    "siteText9": "Your application can be here",
+    "empty": "Empty",
+
+    "viewDetails": "View Details",
+    "close": "Close",
+    "viewMore": "View More"
+  },
+  "contact":{
+    "hireMe":"Hire Me",
+    "aboutMe":"I am availabe for freelance work.",
+    "connect":"Connect with me via phone",
+    "or":"or email",
+    "name":"Your name",
+    "email":"Your Email",
+    "subject":"Write a subject",
+    "message":"Write your message",
+    "submit":"Submit"
+  },
+  "skills":{
+    "Teamwork":"Teamwork",
+    "Communication":"Communication",
+    "Сreative":"Сreative",
+    "Adaptability":"Adaptability",
+    "TimeManagement":"Time management",
+    "Сonfident":"Сonfident",
+    "CriticalThinking":"Critical thinking"
+  },
+  "blog":{
+    "blog":"My Blog",
+    "Aydarkul":"Aydarkul",
+    "AydarkulText":"A worthy place in the list of water tourism routes is occupied by the drainless lake Aydarkul, located in the endless desert of Kyzylkum..",
+    "Samarkand":"Samarkand",
+    "SamarkandText":"Today Samarkand is a city that combines the ancient traditions of the East and modernity. This is the third largest city in Uzbekistan, more than half a million people live here.",
+    "Tower":"Tashkent TV Tower",
+    "TowerText":"The Tashkent TV tower with a “height” of 375 m, after completion of construction in 1985, received the title of the tallest building in Uzbekistan.",
+    "NBU":"NBU",
+    "NBUText":"National Bank of the Republic of Uzbekistan"
+  }
+}

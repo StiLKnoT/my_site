@@ -1,0 +1,47 @@
+@media screen and (min-width: 1600px) {
+    .footer{
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+    .footer__container{
+        max-width: 1200px;
+    }
+
+    
+}
+.footer__container{
+    width: 80% !important;
+}
+.footer__img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+@media screen and (max-width: 768px) {
+    .footer__container{
+        width: 80% !important;
+    }
+   
+}
+@media screen and (max-width: 576px) {
+    .footer .component__space{
+        padding: 20px 0px !important;
+    }
+    
+}
+@media screen and (max-width: 476px) {
+    .footer__container{
+        width: 80% !important;
+    }   
+    .footer__img{
+        width: 45px;
+        height: 45px;
+    } 
+    .footer .component__space{
+        padding: 0px !important;
+    }
+}
+.footer {
+    border-top: 1px solid #fff;
+}
+  

@@ -1,0 +1,110 @@
+{
+    "navbar":{
+        "Home":"Bosh sahifa",
+        "About":"Men haqimda",
+        "Services":"Xizmatlarim",
+        "Portfolio":"Portfolio",
+        "Blog":"Blog",
+        "Contact":"Bog'lanish"
+      },
+    "title":{
+        "welcome":"DUNYOIMGA XUSH KELIBSIZ",
+        "salom":"Salom, men",
+        "Nurlan":"Nurlan",
+        "developer":"Dasturchi",
+        "based":"joylashuvim TOSHKENT"
+    },
+    "about":{
+      "aboutMe":"Men haqimda",
+      "name":"Ismim: Nurlan",
+      "surname":"Familiyam: Qarshiyev",
+      "age":"Yoshim: 22",
+      "education":"Ta'lim: TUIT",
+      "course":"Kurs: 3",
+
+      "iAm":"Men junior frontend dasturchisiman",
+      "goals":"Mening STACK'im React JS(ES6)/i18n/MUI, maqsadlarim:",
+      "specialist":"-  O'z sohamning professionali bo'lish",
+      "creation":"- yuqori sifatli loyihalarni yaratish va ularni onlayn ishga tushirish",
+      "demand":"- talabga ega bo'lgan mutaxassis bo'lish",
+      
+      "CV":"CVni yuklash",
+      "hireME":"Meni top"
+
+    },
+    "service":{
+      "title":"Mening xizmatim",
+      "text1":"Saytni rivojlantirishning muhim tafsilotlari",
+      "text2":"Loyihani boshlashdan oldin, siz saytdan keyingi foydalanish uchun tafsilotlar va maqsadlar haqida qaror qabul qilishingiz kerak."
+    },
+    "service1":{
+      "type":"Sayt yaratish",
+      "text1":"Landing, Vizitka sayt",
+      "text2":"Ko'p sahifali saytlar,",
+      "text3":"Internet-do'konlar."
+    
+    },
+    "service2":{
+      "type":"Saytni boshqarish",
+      "text1":"Veb-saytni yangilash,",
+      "text2":"Sayt dizaynini yaxshilash, o'zgartirish,",
+      "text3":"Xatoliklarni tuzatish."
+    
+    },
+    "service3":{
+      "type":"Sotadigan veb-sayt",
+      "text1":"Siz o'z brendingizni targ'ib",
+      "text2":"qilish uchun tayyor",
+      "text3":"mahsulotga ega bo'lasiz."    
+    },
+    "project":{
+      "title":"So'nggi loyihamlarim",
+      "text1":"Real loyihalar",
+      "text2":"",
+      "siteText1":"Gidlar va sayyohlar uchun sayt",
+      "siteText2":"Business training kurslari",
+      "siteText3":"Universitet sayti",
+      "siteText4":"SMM uchun Landing sahifasi",
+      "siteText5":"Xususiy bolalar bog'chasi veb-sayti",
+      "siteText6":"Krossovkalar do'koni",
+      "siteText7":"Sizning saytingizga joy",
+      "siteText8":"Onlayn do'kon",
+      "siteText9":"Sizning saytingizga joy",
+      "empty":"Bo'sh",
+
+      "viewDetails":"Batafsil",
+      "close":"Yopish",
+      "viewMore":"Ko'proq"
+    },
+    "contact":{
+      "hireMe":"Meni Top",
+      "aboutMe":"Men Freelance uchun tayyorman.",
+      "connect":"Men bilan telefon orqali bog'laning",
+      "or":"yoki email orqali",
+      "name":"Ismingiz",
+      "email":"Email ingiz",
+      "subject":"Mavzuni yozing",
+      "message":"Xabaringizni yozing",
+      "submit":"Yuborish"
+    },
+    "skills":{
+      "Teamwork":"Jamoada ishlash",
+      "Communication":"Aloqa",
+      "Сreative":"Ijodiylik",
+      "Adaptability":"Moslashuvchanlik",
+      "TimeManagement":"Vaqtni boshqarish",
+      "Сonfident":"Ishonchlilik",
+      "CriticalThinking":"Tanqidiy fikrlash"
+    },
+    "blog":{
+      "blog":"Mening Blogim",
+      "Aydarkul":"Aydarko'l",
+      "AydarkulText":"Suv turizmi yoʻnalishlari roʻyxatida bepoyon Qizilqum choʻlida joylashgan Aydarkoʻl endoreik koʻli munosib oʻrin egallaydi.",
+      "Samarkand":"Samarqand",
+      "SamarkandText":"Samarqand bugungi kunda Sharqning qadimiy anʼanalari bilan zamonaviylikni oʻzida mujassam etgan shahardir. Bu O‘zbekistonning uchinchi yirik shahri bo‘lib, bu yerda yarim milliondan ortiq aholi istiqomat qiladi.",
+      "Tower":"Toshkent Teleminorasi",
+      "TowerText":"“Balandligi” 375 m boʻlgan Toshkent teleminorasi 1985 yilda qurilishi tugallangandan soʻng Oʻzbekistondagi eng baland bino unvonini oldi",
+      "NBU":"NBU",
+      "NBUText":"O'zbekiston Respublikasi Milliy banki"
+    }
+}

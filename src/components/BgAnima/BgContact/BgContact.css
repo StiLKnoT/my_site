@@ -1,0 +1,488 @@
+.cover {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    margin: auto;
+  }
+  .cover .circle {
+    width: 280px;
+    height: 280px;
+    background: #e84c3d;
+    border-radius: 100%;
+    position: absolute;
+    left: -300px;
+    bottom: -80px;
+    box-shadow: 5px 1px 8px black;
+    z-index: 2;
+    -webkit-animation-name: example;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 0.2s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+  }
+  @keyframes example {
+    0% {
+      left: -300px;
+    }
+    100% {
+      left: -80px;
+    }
+  }
+  .cover .red {
+    width: 320px;
+    height: 320px;
+    background: #e84c3d;
+    position: absolute;
+    left: -400px;
+    transform: rotate(40deg);
+    box-shadow: 10px 5px 8px black;
+    -webkit-animation-name: example2;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 0.4s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-delay: 0.4s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+  }
+  @keyframes example2 {
+    0% {
+      left: -400px;
+    }
+    100% {
+      left: -203px;
+    }
+  }
+  .cover .square {
+    width: 400px;
+    height: 250px;
+    background: #474747;
+    position: absolute;
+    transform: rotate(40deg);
+    bottom: -91px;
+    left: -450px;
+    -webkit-animation-name: example3;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 0.6s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: example3;
+    animation-duration: 4s;
+    animation-delay: 0.6s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+  }
+  @keyframes example3 {
+    0% {
+      left: -450px;
+    }
+    100% {
+      left: 56px;
+    }
+  }
+  .cover .mini {
+    height: 300px;
+    width: 80px;
+    background: #595959;
+    transform: rotate(-50deg);
+    position: absolute;
+    left: -300px;
+    top: -80px;
+    box-shadow: 5px 0px 20px black;
+    -webkit-animation-name: example4;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 0.8s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: example4;
+    animation-duration: 4s;
+    animation-delay: 0.8s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+  }
+  @keyframes example4 {
+    0% {
+      left: -300px;
+    }
+    100% {
+      left: 121px;
+    }
+  }
+  .cover .minii {
+    height: 300px;
+    width: 80px;
+    background: #595959;
+    transform: rotate(-50deg);
+    position: absolute;
+    left: -300px;
+    top: -80px;
+    box-shadow: -5px 0px 10px black;
+    -webkit-animation-name: example5;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 0.1s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: example5;
+    animation-duration: 4s;
+    animation-delay: 0.1s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+  }
+  @keyframes example5 {
+    0% {
+      left: -300px;
+    }
+    100% {
+      left: 121px;
+    }
+  }
+  .cover .squaree {
+    width: 200px;
+    height: 200px;
+    background: #595959;
+    position: absolute;
+    transform: rotate(40deg);
+    right: 700px;
+    top: -237px;
+    box-shadow: 5px 0px 20px black;
+    -webkit-animation-name: example8;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 0.12s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: example8;
+    animation-duration: 4s;
+    animation-delay: 0.12s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+  }
+  @keyframes example8 {
+    0% {
+      top: -700px;
+    }
+    100% {
+      top: -137px;
+      right: 282px;
+    }
+  }
+  .cover .big {
+    background: #3d3d3d;
+    width: 450px;
+    height: 300px;
+    transform: rotate(130deg);
+    top: -28px;
+    right: -600px;
+    position: absolute;
+    box-shadow: 5px 0px 10px black;
+    -webkit-animation-name: example6;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 0.14s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: example6;
+    animation-duration: 4s;
+    animation-delay: 0.14s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+  }
+  @keyframes example6 {
+    0% {
+      right: -600px;
+    }
+    100% {
+      right: -35px;
+    }
+  }
+  .cover .bigg {
+    background: #e84c3d;
+    width: 450px;
+    height: 20px;
+    transform: rotate(130deg);
+    top: 211px;
+    position: absolute;
+    right: -400px;
+    -webkit-animation-name: example7;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 0.16s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: example7;
+    animation-duration: 4s;
+    animation-delay: 0.16;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+  }
+  @keyframes example7 {
+    0% {
+      right: -400px;
+      opacity: 0;
+    }
+    100% {
+      right: -153px;
+      opacity: 1;
+    }
+  }
+  .cover div {
+    transition: 0.4s all ease-in-out;
+  }
+  .cover div:hover {
+    background: #e84c3d;
+  }
+  
+  @media screen and (max-width: 576px) {
+    .cover .circle {
+      width: 280px;
+      height: 280px;
+      background: #e84c3d;
+      border-radius: 100%;
+      position: absolute;
+      left: -300px;
+      bottom: -80px;
+      box-shadow: 5px 1px 8px black;
+      z-index: 2;
+      -webkit-animation-name: example;
+      /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 4s;
+      /* Safari 4.0 - 8.0 */
+      -webkit-animation-delay: 0.2s;
+      /* Safari 4.0 - 8.0 */
+      animation-name: example;
+      animation-duration: 4s;
+      animation-delay: 0.2s;
+      animation-fill-mode: forwards;
+      animation-direction: alternate;
+    }
+    @keyframes example {
+      0% {
+        left: -300px;
+      }
+      100% {
+        left: -80px;
+      }
+    }
+    .cover .red {
+      width: 320px;
+      height: 320px;
+      background: #e84c3d;
+      position: absolute;
+      left: -400px;
+      transform: rotate(40deg);
+      box-shadow: 10px 5px 8px black;
+      -webkit-animation-name: example2;
+      /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 4s;
+      /* Safari 4.0 - 8.0 */
+      -webkit-animation-delay: 0.4s;
+      /* Safari 4.0 - 8.0 */
+      animation-name: example2;
+      animation-duration: 4s;
+      animation-delay: 0.4s;
+      animation-fill-mode: forwards;
+      animation-direction: alternate;
+    }
+    @keyframes example2 {
+      0% {
+        left: -400px;
+      }
+      100% {
+        left: -203px;
+      }
+    }
+    .cover .square {
+      width: 400px;
+      height: 250px;
+      background: #474747;
+      position: absolute;
+      transform: rotate(40deg);
+      bottom: -91px;
+      left: -450px;
+      -webkit-animation-name: example3;
+      /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 4s;
+      /* Safari 4.0 - 8.0 */
+      -webkit-animation-delay: 0.6s;
+      /* Safari 4.0 - 8.0 */
+      animation-name: example3;
+      animation-duration: 4s;
+      animation-delay: 0.6s;
+      animation-fill-mode: forwards;
+      animation-direction: alternate;
+    }
+    @keyframes example3 {
+      0% {
+        left: -450px;
+      }
+      100% {
+        left: 56px;
+      }
+    }
+    .cover .mini {
+      height: 300px;
+      width: 80px;
+      background: #595959;
+      transform: rotate(-50deg);
+      position: absolute;
+      left: -300px;
+      top: -80px;
+      box-shadow: 5px 0px 20px black;
+      -webkit-animation-name: example4;
+      /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 4s;
+      /* Safari 4.0 - 8.0 */
+      -webkit-animation-delay: 0.8s;
+      /* Safari 4.0 - 8.0 */
+      animation-name: example4;
+      animation-duration: 4s;
+      animation-delay: 0.8s;
+      animation-fill-mode: forwards;
+      animation-direction: alternate;
+    }
+    @keyframes example4 {
+      0% {
+        left: -300px;
+      }
+      100% {
+        left: 121px;
+      }
+    }
+    .cover .minii {
+      height: 300px;
+      width: 80px;
+      background: #595959;
+      transform: rotate(-50deg);
+      position: absolute;
+      left: -300px;
+      top: -80px;
+      box-shadow: -5px 0px 10px black;
+      -webkit-animation-name: example5;
+      /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 4s;
+      /* Safari 4.0 - 8.0 */
+      -webkit-animation-delay: 0.1s;
+      /* Safari 4.0 - 8.0 */
+      animation-name: example5;
+      animation-duration: 4s;
+      animation-delay: 0.1s;
+      animation-fill-mode: forwards;
+      animation-direction: alternate;
+    }
+    @keyframes example5 {
+      0% {
+        left: -300px;
+      }
+      100% {
+        left: 121px;
+      }
+    }
+    .cover .squaree {
+      width: 200px;
+      height: 200px;
+      background: #595959;
+      position: absolute;
+      transform: rotate(40deg);
+      right: 700px;
+      top: -237px;
+      box-shadow: 5px 0px 20px black;
+      -webkit-animation-name: example8;
+      /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 4s;
+      /* Safari 4.0 - 8.0 */
+      -webkit-animation-delay: 0.12s;
+      /* Safari 4.0 - 8.0 */
+      animation-name: example8;
+      animation-duration: 4s;
+      animation-delay: 0.12s;
+      animation-fill-mode: forwards;
+      animation-direction: alternate;
+    }
+    @keyframes example8 {
+      0% {
+        top: -700px;
+      }
+      100% {
+        top: -137px;
+        right: 80px;
+      }
+    }
+    .cover .big {
+      background: #3d3d3d;
+      width: 450px;
+      height: 300px;
+      transform: rotate(130deg);
+      top: -28px;
+      right: -600px;
+      position: absolute;
+      box-shadow: 5px 0px 10px black;
+      -webkit-animation-name: example6;
+      /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 4s;
+      /* Safari 4.0 - 8.0 */
+      -webkit-animation-delay: 0.14s;
+      /* Safari 4.0 - 8.0 */
+      animation-name: example6;
+      animation-duration: 4s;
+      animation-delay: 0.14s;
+      animation-fill-mode: forwards;
+      animation-direction: alternate;
+    }
+    @keyframes example6 {
+      0% {
+        right: -600px;
+      }
+      100% {
+        right: -235px;
+      }
+    }
+    .cover .bigg {
+      background: #e84c3d;
+      width: 450px;
+      height: 20px;
+      transform: rotate(130deg);
+      top: 211px;
+      position: absolute;
+      right: -400px;
+      -webkit-animation-name: example7;
+      /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 4s;
+      /* Safari 4.0 - 8.0 */
+      -webkit-animation-delay: 0.16s;
+      /* Safari 4.0 - 8.0 */
+      animation-name: example7;
+      animation-duration: 4s;
+      animation-delay: 0.16;
+      animation-fill-mode: forwards;
+      animation-direction: alternate;
+    }
+    @keyframes example7 {
+      0% {
+        right: -400px;
+        opacity: 0;
+      }
+      100% {
+        right: -353px;
+        opacity: 1;
+      }
+    }
+    .cover div {
+      transition: 0.4s all ease-in-out;
+    }
+    .cover div:hover {
+      background: #e84c3d;
+    } 
+  }

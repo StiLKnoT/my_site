@@ -1,0 +1,132 @@
+.heading{
+    position: relative;
+    z-index: 50;
+}
+
+
+h1.heading{
+    font-size: 60px;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+
+.service {
+    background-color: black;
+    object-fit: cover;
+    background-size: 100%;
+    position: relative;
+    padding-bottom: 1px;
+}
+p.heading.p__color{
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 1.2;
+}
+.service__box{
+    border-radius: 10px;
+    width: 360px;
+    height: 360px;
+    background-color: #191919;
+    padding: 55px;
+    transition: .4s ease;
+}
+.service__box:hover{
+    transform: translateY(5px);
+    background-image: linear-gradient(90deg,#f61b10,#ef0963);
+}
+.service__box:hover .icon{
+    color: #fff;
+}
+.service__box:hover p.service__text.p__color{
+    color: #fff;
+}
+.icon{
+    font-size: 54px;
+    font-weight: 400;
+    margin-bottom: 23px;
+    display: inline-flex;
+    color: #f9004d;
+}
+p.service__text.p__color{
+    margin-bottom: 0;
+}
+h1.service__text{
+    font-size: 19px;
+    font-family: Poppins, sans-serif;
+    padding: 10px 0px;
+}
+#boxRow{
+    margin: 50px 0 50px 0;
+}
+.col__3{
+    z-index: 50;
+}
+.ServiceModel{
+    width: 100%;
+    height: 100vh;
+    position: absolute !important;
+    z-index: 1;
+}
+.CanvasImpo{
+    width: 100%;
+}
+.component__space__service__top{
+    padding: 80px 0 0 0;
+}
+.component__space__service__bottom{
+    padding: 0 0 80px 0;
+}
+
+@media screen and (min-width: 1600px) {
+    .service, .ServiceModel{
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+    .ServiceModel{
+        height: 762px;
+    }
+    
+}
+@media screen and (max-width: 1600px) {
+    .ServiceModel{
+        height: 762px;
+    }    
+}
+@media screen and (max-width: 1250px) {
+    .service__box{
+        width: 300px;
+        height: 300px;
+        padding: 32px;
+    }
+    .ServiceModel{
+        height: 702.4px;
+    }  
+  
+}
+@media screen and (max-width: 1001px) {
+    #boxRow{
+        margin: 0px;
+    }
+    .ServiceModel{
+        height: 1034px;
+    }
+}
+
+@media screen and (max-width: 676px) {
+    .service__box{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    }
+    .ServiceModel{
+        height: 1394px;
+    }
+}
+@media screen and (max-width: 519px) {
+    .ServiceModel{
+        height: 1415.6px;
+    }
+}
