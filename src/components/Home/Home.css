@@ -58,12 +58,23 @@ li.nav__items{
     position: relative;
     z-index: 22;
 }
+.home__meta{
+    overflow: hidden;
+}
+
+.home__text{
+    display: inline-block;
+    transform: translateY(100%);
+    font-weight: bolder;
+
+}
 h1.home__text{
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 3px;
-    color: rgba(198, 201, 216, .75)!important;
+    color: #fff;
     font-family: 'Roboto Slab', serif;
+   
 
 }
 .home{

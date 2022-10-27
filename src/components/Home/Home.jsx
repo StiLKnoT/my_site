@@ -36,15 +36,14 @@ function Home() {
   let cursor = useRef(null)
   let textTL = useRef(null)
 
-  useEffect(() => {
-    TweenMax.to(mainText, 2.5, { opacity: 1, y: -35, ease: Expo.easeOut});
-    TweenMax.to(mainText2, 2.5, { opacity: 1, y: -35, ease: Expo.easeOut});
-    TweenMax.to(mainText3, 2.5, { opacity: 1, y: -35, ease: Expo.easeOut });
-    TweenMax.to(mainText4, 2.5, { opacity: 1, y: -35, ease: Expo.easeOut });
-    gsap.to(cursor, 2, {opacity: 0, color: "red", ease: Power2.inOut, repeat: -1});
-
+  
 
   
+  useEffect(() => {
+    gsap.to(mainText, 0.7, {y: '0',  duration: 0.7,  opacity: 1})
+    gsap.to(mainText2, 0.7, {y: '0',  duration: 0.7,  opacity: 1, delay: 0.2})
+    gsap.to(mainText3, 0.7, {y: '0',  duration: 0.7,  opacity: 1, delay: 0.4})
+    gsap.to(mainText4, 0.7, {y: '0',  duration: 0.7,  opacity: 1, delay: 0.6})
   }, []);
 
   window.addEventListener("scroll", function(){
@@ -136,12 +135,23 @@ function Home() {
         <div className="container">
           <div className="home__content">
             <div className="home__meta">
+              <div className="home__meta">
               <h1 ref={el=>{mainText=el}} className="home__text pz__10">{t("title.welcome")}</h1>
+              </div>
+              <div className="home__meta">
+
               <h2 ref={el=>{mainText2=el}} className="home__text pz__10">
                 {t("title.salom")} <span className="cursorSpan" id="neon" style={{display: "inline-block"}}ref={el=>{textTL=el}}>{t("title.Nurlan")}</span><span className="cursorSpan" ref={el=>{cursor=el}}>_</span>
               </h2>
+              </div>
+
+              <div className="home__meta">
               <h3 ref={el=>{mainText3=el}} className="home__text sweet pz__10">JS {t("title.developer")}</h3>
+              </div>
+
+              <div className="home__meta">
               <h4 ref={el=>{mainText4=el}} className="home__text pz__10">{t("title.based")}</h4>
+              </div>
             </div>
           </div>
         </div>

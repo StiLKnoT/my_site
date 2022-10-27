@@ -66,6 +66,9 @@ button.btn.contact.pointer {
 .col__2__contact__info{
     width: 42%;
 }
+input:focus, textarea:focus{
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
+}
 input:active{
     border: 2px solid #fff;
 }

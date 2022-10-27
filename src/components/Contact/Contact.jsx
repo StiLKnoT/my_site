@@ -7,6 +7,8 @@ import BgAnima from '../BgAnima/BgAnima';
 import { useState } from 'react';
 import axios from 'axios'
 import Form from '../form/Form';
+import { useEffect } from 'react';
+import FormError from '../form/FormError/FormError';
 
 
 
@@ -16,7 +18,8 @@ function Contact() {
   const [subject, setSubject] = useState('')
   const [message, setMessage] = useState('')
   const [postUser, setPostUser] = useState([])
-  const [openForm, setOpenForm] = useState(false)
+  const [openForm, setOpenForm] = useState(true)
+  const [errorForm, setErrorForm] = useState(true)
 
   const {t, i18n} = useTranslation()
   const url = "https://62373d82f5f6e28a154abef5.mockapi.io/news"
@@ -27,7 +30,10 @@ function Contact() {
     setEmail((value = ""));
     setName((value = ""));
   };
-  
+  useEffect(()=>{
+    getPostUser()
+  },[])
+
   const getPostUser = async (e) => {
     e.preventDefault();
     try {
@@ -38,19 +44,12 @@ function Contact() {
         message: message,
       });
       setPostUser(resp.data);
+      setTimeout(()=>setOpenForm(!openForm),200) 
       clear();
-      // if (openForm(true)){ <Form FormAnswer={()=>setOpenForm(!openForm)}/>
-
-      // }
-      // else{
-      //   return null
-      // }
-      alert("Message sent")
-
 
     } catch (error) {
+      setTimeout(()=>setErrorForm(!errorForm),200) 
       clear();
-      alert("Message not sent")
     }
   };
 
@@ -76,10 +75,11 @@ function Contact() {
               <input type="text" className="contact email" placeholder={t("contact.email")+" *"} value={email} onChange={(e)=>setEmail(e.target.value)} required/>
               <input type="text" className="contact subject" placeholder={t("contact.subject")} value={subject} onChange={(e)=>setSubject(e.target.value)} required/>
               <textarea name="message" id="message" placeholder={t("contact.message")} value={message} onChange={(e)=>setMessage(e.target.value)} required></textarea>
-              <button className="btn contact pointer" type="submit" onClick={()=>setOpenForm(!openForm)} >{t("contact.submit")}</button>
-
+              <button className="btn contact pointer" type="submit">{t("contact.submit")}</button>
             </form>
 
+            <Form openForm={openForm} FormAnswer={()=> setOpenForm(!openForm)}/>
+            <FormError errorForm={errorForm} FormErrorAnswer={()=> setErrorForm(!errorForm)}/>
 
           </div>
         </div>
